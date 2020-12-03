@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+}
+html,body{
+    height: 100%;
+    width: 100vw;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+$mainColor: #71C6D3; 
+
+@mixin boxShadow {
+    box-shadow:6px 4px 7px -2px #b8b8b8;
+}
